@@ -1,0 +1,32 @@
+{
+  "last_updated": "2026-02-09 02:56:00",
+  "jobs": [
+    {
+      "id": "44e9a214-9fa2-4770-ba18-bbd3d5478e02",
+      "name": "Sentinel",
+      "status": "ok",
+      "schedule": "every 3h",
+      "next": "05:16:42",
+      "last": "2026-02-07 18:38",
+      "agent": "main"
+    },
+    {
+      "id": "ae0c895b-f719-4a01-a22b-e3b31e947942",
+      "name": "Daily World Briefing",
+      "status": "ok",
+      "schedule": "cron 30 9 * * * @ Asia/Calcutta",
+      "next": "09:30:00",
+      "last": "2026-02-07 09:30",
+      "agent": "main"
+    },
+    {
+      "id": "04d0ce44-97a3-4f71-9eb0-b2bc1656d7d4",
+      "name": "Huddle01 Discord Claim Reminder",
+      "status": "idle",
+      "schedule": "every 7d",
+      "next": "2026-02-16 02:16",
+      "last": "-",
+      "agent": "main"
+    }
+  ]
+}
