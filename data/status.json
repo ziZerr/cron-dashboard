@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-02-09 02:56:00",
+  "last_updated": "2026-02-09 03:00:18",
   "jobs": [
+    {
+      "id": "df70b2f7-bc5b-4020-941c-2a1f053a6dad",
+      "name": "Cron Dashboard Sync",
+      "status": "ok",
+      "schedule": "every 1h",
+      "next": "03:59:56",
+      "last": "02:59:27",
+      "agent": null
+    },
     {
       "id": "44e9a214-9fa2-4770-ba18-bbd3d5478e02",
       "name": "Sentinel",
