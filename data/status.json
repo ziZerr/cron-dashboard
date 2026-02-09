@@ -1,22 +1,13 @@
 {
-  "last_updated": "2026-02-09 03:00:18",
+  "last_updated": "2026-02-09 10:31:29",
   "jobs": [
-    {
-      "id": "df70b2f7-bc5b-4020-941c-2a1f053a6dad",
-      "name": "Cron Dashboard Sync",
-      "status": "ok",
-      "schedule": "every 1h",
-      "next": "03:59:56",
-      "last": "02:59:27",
-      "agent": null
-    },
     {
       "id": "44e9a214-9fa2-4770-ba18-bbd3d5478e02",
       "name": "Sentinel",
       "status": "ok",
       "schedule": "every 3h",
-      "next": "05:16:42",
-      "last": "2026-02-07 18:38",
+      "next": "12:02:45",
+      "last": "09:01:56",
       "agent": "main"
     },
     {
@@ -25,15 +16,24 @@
       "status": "ok",
       "schedule": "cron 30 9 * * * @ Asia/Calcutta",
       "next": "09:30:00",
-      "last": "2026-02-07 09:30",
+      "last": "09:30:00",
       "agent": "main"
+    },
+    {
+      "id": "37573327-c066-429b-adff-6c60786729aa",
+      "name": "linkedin-ai-briefing",
+      "status": "ok",
+      "schedule": "cron 15 10 * * * @ Asia/Calcutta",
+      "next": "10:15:00",
+      "last": "10:15:00",
+      "agent": null
     },
     {
       "id": "04d0ce44-97a3-4f71-9eb0-b2bc1656d7d4",
       "name": "Huddle01 Discord Claim Reminder",
       "status": "idle",
       "schedule": "every 7d",
-      "next": "2026-02-16 02:16",
+      "next": "2026-02-16 03:00",
       "last": "-",
       "agent": "main"
     }
